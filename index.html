@@ -13,13 +13,15 @@
 
   <main>
     <article>
-      <h2>🍵 First Post</h2>
-      <p>Hello, world! This is my very first blog post. I’m excited to share my journey here!</p>
+      <h2>🍵 Why is datapath considered as the "brawn" of a processor? If datapath is the "brawn", then what is the "brain" of a processor? Explain with an example.</h2>
+      <p>
+       Datapath is considered the “brawn” of a processor because it performs data processing operations. It is the hardware that carries out required operations, such as registers, ALU and internal buses. Datapath components can operate on data (ex: ALU), transfer data (ex: buses) and hold data (ex: register files). Control is the “brain” of a processor because it commands the datapath, memory and input/output devices according to program instructions. The control takes instructions and generates corresponding signals for elements in the datapath. For example, the control element can (per instruction) generate a signal for an operation to be performed by ALU. The ALU is the brawn in this example as it carries out the necessary arithmetic/logical operations. 
+      </p>
     </article>
 
     <article>
-      <h2>☁️ A Soft Day</h2>
-      <p>Today felt like walking through a dream—quiet, light, and peaceful. I love days like this.</p>
+      <h2>☁️ How does control and clock determine the order of events in sequential elements of datapath such as memory and registers? Discuss with an example.</h2>
+      <p>Control is the component of the processor that commands the datapath, memory, and input/output devices according to program instructions. Clock determines the sequence of events within a gate and then defines when signals can be written or read to processor components (such as memory and registers). It regulates the timing of computer functions. Sequential elements contain state information; so, their outputs depend on their inputs as well as on the stored state. Clocks are necessary in sequential logic in order to determine when to update elements containing state information. All changes in state information occur on a clock edge, known as edge-triggered clocking.</p>
     </article>
   </main>
 
